@@ -1,14 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import {
-  Outlet,
-  Link,
-  createRootRouteWithContext,
-  useRouter,
-  HeadContent,
-  Scripts,
-} from "@tanstack/react-router";
-
-import appCss from "../styles.css?url";
+import { Outlet, Link, createRootRouteWithContext, useRouter } from "@tanstack/react-router";
 
 function NotFoundComponent() {
   return (
@@ -68,61 +59,10 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
-  head: () => ({
-    meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Rheviva — Saúde Mental e Gestão de Riscos Psicossociais" },
-      {
-        name: "description",
-        content:
-          "Transforme exigências legais em proteção, cultura e crescimento sustentável. Conformidade real com a NR-1 para empresas que valorizam pessoas.",
-      },
-      { name: "author", content: "Rheviva Integração Humana" },
-      { property: "og:title", content: "Rheviva — Saúde Mental e Gestão de Riscos Psicossociais" },
-      {
-        property: "og:description",
-        content:
-          "Gestão de riscos psicossociais, conformidade ativa e desenvolvimento humano para empresas.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Rheviva — Saúde Mental e Gestão de Riscos Psicossociais" },
-      { name: "description", content: "Rheviva Gateway is a premium, minimalist landing page designed to convert business leaders and HR professionals into WhatsApp conversations for mental health an" },
-      { property: "og:description", content: "Rheviva Gateway is a premium, minimalist landing page designed to convert business leaders and HR professionals into WhatsApp conversations for mental health an" },
-      { name: "twitter:description", content: "Rheviva Gateway is a premium, minimalist landing page designed to convert business leaders and HR professionals into WhatsApp conversations for mental health an" },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fedc0787-34e6-4294-b03e-7dd8dea562cf/id-preview-9a7b23d3--306bf8ee-db67-4da5-9bb0-ab4b7d49b64b.lovable.app-1779304577702.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fedc0787-34e6-4294-b03e-7dd8dea562cf/id-preview-9a7b23d3--306bf8ee-db67-4da5-9bb0-ab4b7d49b64b.lovable.app-1779304577702.png" },
-    ],
-    links: [
-      { rel: "stylesheet", href: appCss },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap",
-      },
-    ],
-  }),
-  shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
   errorComponent: ErrorComponent,
 });
-
-function RootShell({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <head>
-        <HeadContent />
-      </head>
-      <body>
-        {children}
-        <Scripts />
-      </body>
-    </html>
-  );
-}
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
