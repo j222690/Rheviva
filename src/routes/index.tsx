@@ -141,10 +141,6 @@ function Hero() {
             <div className="absolute inset-0 border border-[color:var(--gold)]/25" aria-hidden />
             <div className="absolute inset-6 border border-[color:var(--gold)]/10" aria-hidden />
             <div className="relative text-center">
-              <div className="text-[10px] tracking-[0.32em] uppercase text-[color:var(--gold)] font-medium">
-                Autoridade comprovada
-              </div>
-              <div className="mx-auto h-px w-10 bg-[color:var(--gold)] mt-5 mb-7" />
               <div className="font-serif text-[110px] sm:text-[140px] lg:text-[160px] leading-[0.85] tracking-[-0.04em] text-[color:var(--primary)]">
                 +4.000
               </div>
@@ -626,17 +622,17 @@ const VIDA = [
   {
     t: "GRO / PDCA",
     sub: "Processo real do ciclo exigido pela NR-1",
-    d: "Estruturação técnica integrada ao AEP, PGR e GRO da empresa.",
+    d: "Ciclo contínuo de conformidade.",
   },
   {
     t: "Conformidade Ativa",
     sub: "Mais que checklist — método de execução",
-    d: "Execução estruturada real, com evidências rastreáveis e gestão contínua.",
+    d: "Execução estruturada real.",
   },
   {
     t: "NR-1 Nova Reescrita",
     sub: "Documentação · Ações executadas",
-    d: "Conformidade comprovada perante fiscalização e auditorias.",
+    d: "Conformidade comprovada.",
   },
 ];
 
@@ -710,9 +706,9 @@ function Methodology() {
 const DIFF = [
   ["Metodologia própria", "Prevenção é o respeito em ação."],
   ["Formação construída na origem", "Formação com a origem da reescrita da norma."],
-  ["Conformidade Ativa real", "Gestão viva com evidências rastreáveis."],
-  ["Humanidade no processo", "Cuidado autêntico em cada etapa da implementação."],
-  ["Técnica e humanidade integradas", "Visão de negócio aliada ao cuidado com pessoas."],
+  ["Conformidade Ativa real", "Mais que checklist — método de execução."],
+  ["Humanidade no processo", ""],
+  ["Técnica e humanidade integradas", "Visão de negócio e cuidado com pessoas."],
 ];
 
 function Differentials() {
