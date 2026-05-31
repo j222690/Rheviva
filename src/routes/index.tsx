@@ -212,21 +212,21 @@ const PROBLEMS = [
   },
   {
     n: "II",
+    tag: "Impacto financeiro",
+    title: "Custos invisíveis com afastamentos",
+    text: "Afastamentos com nexo ocupacional reconhecido aumentam o FAP e elevam o SAT/RAT sobre toda a folha. Além disso, a documentação adequada é sua defesa contra processos trabalhistas onerosos.",
+  },
+  {
+    n: "III",
     tag: "Risco jurídico",
     title: "Documento sem processo é autuado; processo sem documento não é conformidade",
     text: "A lei exige documentação completa e ações efetivamente executadas. Fiscais entrevistam trabalhadores e verificam evidências reais — o processo é tão importante quanto o papel.",
   },
   {
-    n: "III",
+    n: "IV",
     tag: "Universal",
     title: "Risco em qualquer empresa",
     text: "Riscos psicossociais existem independente do porte, setor, cargo ou número de funcionários. Nem todas as empresas estão isentas da obrigação legal, nenhuma do impacto humano.",
-  },
-  {
-    n: "IV",
-    tag: "Impacto financeiro",
-    title: "Custos invisíveis com afastamentos",
-    text: "Afastamentos com nexo ocupacional reconhecido aumentam o FAP e elevam o SAT/RAT sobre toda a folha. Além disso, a documentação adequada é sua defesa contra processos trabalhistas onerosos.",
   },
 ];
 
@@ -433,9 +433,9 @@ function Founder() {
                 Formação construída na origem
               </div>
               <p>
-                Em integração ao PGR direta com Auditores Fiscais do Ministério do Trabalho
-                envolvidos na reescrita da NR-1. Capacitação com especialistas da ESMPU (Escola
-                Superior do Ministério Público da União). Implementadora de Saúde Mental NR-1
+                Formação em integração ao PGR direta com Auditores Fiscais do Ministério do
+                Trabalho envolvidos na reescrita da NR-1. Capacitação com especialistas da ESMPU
+                (escola superior do ministério da união). Implementadora de Saúde Mental NR-1
                 pelo MEC. Pós-graduação em Qualidade de Vida no Trabalho e em Psicologia
                 Organizacional e Gestão de Pessoas.
               </p>
@@ -505,6 +505,7 @@ const SERVICES = [
     t: "Desenvolvimento humano e cultura organizacional",
     sub: "Pode ser contratado independentemente, com ou sem mapeamento prévio da Rheviva.",
     items: [
+      "Execução e gestão das ações do plano de ação",
       "Construção de ambiente e cultura organizacional saudável",
       "Programas de desenvolvimento de capacidades humanas",
       "Palestras, workshops e rodas de conversa",
