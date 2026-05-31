@@ -136,22 +136,25 @@ function Hero() {
           </div>
         </div>
 
-        <div className="lg:col-span-5 reveal">
-          <div className="relative aspect-square w-full flex items-center justify-center px-4">
+        <div className="lg:col-span-5 reveal flex flex-col items-center gap-10">
+          <div className="relative w-full flex items-center justify-center">
             <div className="absolute inset-0 border border-[color:var(--gold)]/25" aria-hidden />
-            <div className="absolute inset-6 border border-[color:var(--gold)]/10" aria-hidden />
-            <div className="relative text-center">
-              <div className="font-serif text-[110px] sm:text-[140px] lg:text-[160px] leading-[0.85] tracking-[-0.04em] text-[color:var(--primary)]">
-                +4.000
-              </div>
-              <div className="mt-6 font-serif italic text-xl sm:text-2xl text-[color:var(--ink)]/85">
-                atendimentos realizados
-              </div>
-              <div className="mx-auto h-px w-10 bg-[color:var(--gold)] mt-7 mb-5" />
-              <p className="max-w-[280px] mx-auto text-[12px] tracking-[0.08em] text-[color:var(--ink)]/65 font-light leading-[1.8]">
-                Sessões individuais, palestras, workshops e imersões.
-              </p>
-            </div>
+            <div className="absolute inset-4 border border-[color:var(--gold)]/10" aria-hidden />
+            <img
+              src={logo}
+              alt="Rheviva — Saúde Mental e Gestão de Riscos Psicossociais"
+              className="relative w-56 sm:w-72 lg:w-80 h-auto object-contain py-14 px-8 select-none"
+              draggable={false}
+            />
+          </div>
+          <div className="text-center">
+            <span className="font-serif text-3xl text-[color:var(--primary)]/60">+4.000</span>
+            <p className="text-[11px] tracking-[0.14em] uppercase text-[color:var(--ink)]/45 font-light mt-1">
+              atendimentos realizados
+            </p>
+            <p className="text-[11px] text-[color:var(--ink)]/40 font-light mt-1">
+              Sessões individuais, palestras, workshops e imersões.
+            </p>
           </div>
         </div>
       </div>
