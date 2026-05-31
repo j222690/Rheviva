@@ -225,7 +225,7 @@ const PROBLEMS = [
     n: "IV",
     tag: "Universal",
     title: "Risco em qualquer empresa",
-    text: "Riscos psicossociais existem independente do porte, setor, cargo ou número de funcionários. Nem todas as empresas estão isentas da obrigação legal, nenhuma do impacto humano.",
+    text: "Riscos psicossociais existem independentemente do porte, setor, cargo ou número de funcionários. Nem todas as empresas estão isentas da obrigação legal, nenhuma do impacto humano.",
   },
 ];
 
@@ -434,7 +434,7 @@ function Founder() {
               <p>
                 Formação em integração ao PGR direta com Auditores Fiscais do Ministério do
                 Trabalho envolvidos na reescrita da NR-1. Capacitação com especialistas da ESMPU
-                (escola superior do ministério da união). Implementadora de Saúde Mental NR-1
+                (Escola Superior do Ministério Público da União). Implementadora de Saúde Mental NR-1
                 pelo MEC. Pós-graduação em Qualidade de Vida no Trabalho e em Psicologia
                 Organizacional e Gestão de Pessoas.
               </p>
