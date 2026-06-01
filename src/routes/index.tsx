@@ -920,10 +920,10 @@ function Index() {
         <Hero />
         <About />
         <Problems />
+        <Services />
+        <Founder />
         <WhyInvest />
         <PurposeMissionVision />
-        <Founder />
-        <Services />
         <ActiveCompliance />
         <Methodology />
         <Differentials />
