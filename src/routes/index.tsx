@@ -489,8 +489,10 @@ const SERVICES = [
   },
   {
     n: "03",
-    t: "Assessoria e capacitação",
+    t: "Assessoria",
     sub: "Para empresas que querem conduzir o processo internamente com autonomia.",
+    t2: "Capacitação",
+    sub2: "Para indivíduos que querem aprender o processo da implementação e conduzi-lo com autonomia.",
     items: [
       "Capacitação com método e ferramentas validadas",
       "Para gestores, RH e profissionais de SST ou responsáveis pelo processo",
@@ -551,6 +553,17 @@ function Services() {
                 <p className="text-[14px] leading-[1.7] text-[color:var(--ink)]/70 font-light italic max-w-md">
                   {s.sub}
                 </p>
+                {"t2" in s && s.t2 && (
+                  <>
+                    <h3 className="mt-8 font-serif text-2xl md:text-[28px] text-[color:var(--primary)] leading-[1.2] max-w-md">
+                      {s.t2}
+                    </h3>
+                    <div className="h-px w-12 bg-[color:var(--gold)] my-6" />
+                    <p className="text-[14px] leading-[1.7] text-[color:var(--ink)]/70 font-light italic max-w-md">
+                      {s.sub2}
+                    </p>
+                  </>
+                )}
                 <ul className="mt-7 space-y-3">
                   {s.items.map((it) => (
                     <li
