@@ -819,6 +819,13 @@ function FinalCTA() {
         </h2>
         <div className="mt-14 flex flex-col items-center gap-5">
           <CTAButton variant="gold">Falar com a Rheviva pelo WhatsApp</CTAButton>
+          <a
+            href="mailto:contato@rheviva.com.br?subject=Contato%20pelo%20site%20Rheviva"
+            className="inline-flex items-center gap-3 px-7 py-4 text-[11px] tracking-[0.22em] uppercase font-medium border border-[color:var(--primary-foreground)]/30 text-[color:var(--primary-foreground)] hover:border-[color:var(--gold)] hover:text-[color:var(--gold)] transition-colors duration-500"
+          >
+            Enviar um e-mail
+            <span className="h-px w-6 bg-current" />
+          </a>
           <p className="text-[11px] tracking-[0.22em] uppercase text-[color:var(--primary-foreground)]/60">
             Resposta rápida · Atendimento especializado
           </p>
