@@ -496,6 +496,7 @@ const SERVICES = [
     items: [
       "Capacitação com método e ferramentas validadas",
       "Para gestores, RH e profissionais de SST ou responsáveis pelo processo",
+      "Para pessoas em busca de uma nova profissão.",
       "Formação para conduzir a implementação completa",
       "Gestão contínua dos riscos psicossociais com autonomia",
       "Consistência, conformidade e segurança jurídica sustentáveis",
