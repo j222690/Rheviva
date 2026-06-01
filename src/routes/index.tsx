@@ -123,7 +123,7 @@ function Hero() {
             Método Conformidade Ativa Estruturado · Metodologia VIDA
           </p>
           <p className="mt-6 font-serif italic text-[color:var(--primary)] text-lg">
-            — Prevenção é o respeito em ação.
+            Prevenção é o respeito em ação.
           </p>
           <div className="mt-12 flex flex-wrap items-center gap-4">
             <CTAButton variant="primary">Agende uma reunião agora mesmo</CTAButton>
@@ -219,7 +219,7 @@ const PROBLEMS = [
     n: "III",
     tag: "Risco jurídico",
     title: "Documento sem processo é autuado; processo sem documento não é conformidade",
-    text: "A lei exige documentação completa e ações efetivamente executadas. Fiscais entrevistam trabalhadores e verificam evidências reais — o processo é tão importante quanto o papel.",
+    text: "A lei exige documentação completa e ações efetivamente executadas. Fiscais entrevistam trabalhadores e verificam evidências reais; o processo é tão importante quanto o papel.",
   },
   {
     n: "IV",
@@ -480,10 +480,10 @@ const SERVICES = [
       "Tudo do Serviço 01",
       "Formalização documental completa",
       "Conformidade legal e segurança jurídica",
-      "Calendário Anual de Prevenção personalizado — 12 meses planejados",
+      "Calendário Anual de Prevenção personalizado, 12 meses planejados",
       "Monitoramento contínuo de indicadores",
       "Revisões periódicas e revisão anual do PGR",
-      "Adequação à Lei 15.377/2026 — saúde preventiva, comunicação, documentação e evidências",
+      "Adequação à Lei 15.377/2026: saúde preventiva, comunicação, documentação e evidências",
       "Execução e gestão das ações do plano de ação",
     ],
   },
@@ -609,7 +609,7 @@ function ActiveCompliance() {
           </div>
           <div className="lg:col-span-7 reveal">
             <p className="text-[17px] leading-[1.8] text-[color:var(--ink)]/80 font-light">
-              Método que transforma a obrigação legal em processo vivo — não um documento na
+              Método que transforma a obrigação legal em processo vivo, não um documento na
               gaveta, mas gestão contínua com monitoramento real, revisões periódicas e segurança
               jurídica sustentável.
             </p>
@@ -634,7 +634,7 @@ const VIDA = [
   {
     t: "VIDA",
     sub: "Metodologia proprietária",
-    d: "Vivência, Intenção, Decisão e Ação — quatro dimensões integradas ao ciclo PDCA.",
+    d: "Vivência, Intenção, Decisão e Ação: quatro dimensões integradas ao ciclo PDCA.",
   },
   {
     t: "GRO / PDCA",
@@ -643,7 +643,7 @@ const VIDA = [
   },
   {
     t: "Conformidade Ativa",
-    sub: "Mais que checklist — método de execução",
+    sub: "Mais que checklist: método de execução",
     d: "Execução estruturada real.",
   },
   {
@@ -677,12 +677,12 @@ function Methodology() {
               Metodologia proprietária que conduz o processo de implementação estruturado e
               permanente, integrando os riscos psicossociais ao AEP, PGR e GRO, alinhada às
               diretrizes da ISO 45003, OIT e Portaria MTE nº 1.419/2024. Organizada em quatro
-              dimensões — Vivência, Intenção, Decisão e Ação — integradas ao ciclo PDCA exigido
+              dimensões: Vivência, Intenção, Decisão e Ação, integradas ao ciclo PDCA exigido
               pela NR-1. Cada etapa gera entregável concreto, evidência rastreável e
               documentação técnica com validade jurídica.
             </p>
             <p>
-              Método que transforma a obrigação legal em processo vivo — não um documento na
+              Método que transforma a obrigação legal em processo vivo, não um documento na
               gaveta, mas gestão contínua com monitoramento real, revisões periódicas e
               segurança jurídica sustentável.
             </p>
@@ -723,7 +723,7 @@ function Methodology() {
 const DIFF = [
   ["Metodologia própria", "Prevenção é o respeito em ação."],
   ["Formação construída na origem", "Formação com a origem da reescrita da norma."],
-  ["Conformidade Ativa real", "Mais que checklist — método de execução."],
+  ["Conformidade Ativa real", "Mais que checklist: método de execução."],
   ["Humanidade no processo", ""],
   ["Técnica e humanidade integradas", "Visão de negócio e cuidado com pessoas."],
 ];
@@ -761,7 +761,7 @@ function Differentials() {
         <p className="mt-16 max-w-3xl text-[16px] leading-[1.8] text-[color:var(--ink)]/75 font-light reveal">
           Transformamos obrigação legal em cultura organizacional viva. Com melhorias contínuas
           construímos ambientes corporativos saudáveis, simultaneamente, proteção contra riscos
-          humanos e prejuízos financeiros — empresa produtiva e sustentável.
+          humanos e prejuízos financeiros; empresa produtiva e sustentável.
         </p>
       </div>
     </section>
@@ -851,7 +851,7 @@ function Footer() {
             <div className="eyebrow mb-5">Endereço</div>
             <p className="text-sm text-[color:var(--ink)]/75 leading-[1.8] font-light">
               Rua Rui Barbosa, 36E<br />
-              Centro — Chapecó / SC
+              Centro, Chapecó/SC
             </p>
           </div>
           <div className="md:col-span-3">
