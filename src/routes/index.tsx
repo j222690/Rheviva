@@ -505,7 +505,7 @@ const SERVICES = [
   {
     n: "04",
     t: "Desenvolvimento humano e cultura organizacional",
-    sub: "Pode ser contratado independentemente, com ou sem mapeamento prévio da Rheviva.",
+    sub: "Serviços que podem ser contratados separadamente.",
     items: [
       "Execução e gestão das ações da empresa contratante",
       "Construção de ambiente e cultura organizacional saudável",
