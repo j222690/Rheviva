@@ -436,7 +436,7 @@ function Founder() {
                 Trabalho envolvidos na reescrita da NR-1. Capacitação com especialistas da ESMPU
                 (Escola Superior do Ministério Público da União). Implementadora de Saúde Mental NR-1
                 pelo MEC. Pós-graduação em Qualidade de Vida no Trabalho e em Psicologia
-                Organizacional e Gestão de Pessoas.
+                Organizacional e Gestão de Pessoas. Técnica em Segurança do Trabalho (em formação).
               </p>
             </div>
             <div>
