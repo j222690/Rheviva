@@ -145,6 +145,8 @@ function Hero() {
               alt="Rheviva — Saúde Mental e Gestão de Riscos Psicossociais"
               className="relative w-56 sm:w-72 lg:w-80 h-auto object-contain py-14 px-8 select-none"
               draggable={false}
+              fetchPriority="high"
+              loading="eager"
             />
           </div>
           <div className="text-center">
@@ -188,6 +190,9 @@ function About() {
               Com uma abordagem preventiva, estruturamos soluções técnicas e estratégicas que
               conectam a legislação ao desenvolvimento humano, gerando valor e fortalecendo a
               imagem das empresas perante trabalhadores, clientes e o mercado.
+            </p>
+            <p>
+              Sediada em <strong className="text-[color:var(--primary)] font-medium">Chapecó, Santa Catarina</strong>, atendemos empresas de todo o Brasil com implementação completa e gestão contínua dos riscos psicossociais exigidos pela nova NR-1.
             </p>
             <p>
               Construindo de forma <strong className="text-[color:var(--primary)] font-medium">contínua</strong> ambientes de
@@ -856,14 +861,15 @@ function Footer() {
           </div>
           <div className="md:col-span-3">
             <div className="eyebrow mb-5">Endereço</div>
-            <p className="text-sm text-[color:var(--ink)]/75 leading-[1.8] font-light">
+            <address className="not-italic text-sm text-[color:var(--ink)]/75 leading-[1.8] font-light">
               Rua Rui Barbosa, 36E<br />
-              Centro, Chapecó/SC
-            </p>
+              Centro, Chapecó / SC<br />
+              CEP 89801-000
+            </address>
           </div>
           <div className="md:col-span-3">
             <div className="eyebrow mb-5">Contato</div>
-            <p className="text-sm text-[color:var(--ink)]/75 leading-[1.8] font-light">
+            <address className="not-italic text-sm text-[color:var(--ink)]/75 leading-[1.8] font-light">
               <a href="mailto:contato@rheviva.com.br" className="hover-gold">
                 contato@rheviva.com.br
               </a>
@@ -876,7 +882,7 @@ function Footer() {
               >
                 (49) 9 9123-0040
               </a>
-            </p>
+            </address>
           </div>
           <div className="md:col-span-2">
             <div className="eyebrow mb-5">Social</div>
